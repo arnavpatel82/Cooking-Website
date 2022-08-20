@@ -3,6 +3,7 @@ body {
     background-color: #fff;
     margin-left: 100px;
     margin-right: 100px;
+    -webkit-font-smoothing: antialiased;
 }
 
 .title_and_tags{
@@ -13,9 +14,9 @@ body {
     margin-top: 3%;
 }
 
-.title_and_tags h1 {
-    font-size: 40px;
-    font-weight: lighter;
+.title_and_tags .title {
+    font-size: 50px;
+    color: rgb(29, 28, 28);
 }
 
 .title_and_tags p {
@@ -57,6 +58,7 @@ body {
 .recent_posts {
     display: flex;
     gap: 30px;
+    margin-bottom: 50px;
 }
 
 .recent_posts {
@@ -139,5 +141,49 @@ body {
     font-size: xx-large;
     text-decoration: none;
     color: rgb(29, 28, 28);
+    -webkit-font-smoothing: antialiased;
 }
+
+.recipe_name a:hover {
+    text-decoration: underline;
+}
+
+
+.navbar {
+    display: flex;
+    border-bottom: 1px solid rgb(29, 28, 28);
+    align-items: end;
+    justify-content: space-between;
+    -webkit-font-smoothing: antialiased;
+    line-height: 0px;
+    color: #004d4d;
+
+    
+}
+
+.navbar .explore {
+    font-size: 30px;
+    margin-bottom: 0px;
+    
+}
+
+.navbar .content {
+    display: flex;
+    gap: 50px;
+    line-height: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    
+}
+
+.navbar a {
+    color: #004d4d;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: #b5460f;
+}
+
 
